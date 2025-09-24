@@ -1,0 +1,56 @@
+body{
+    background-image: url(./recursos/fondo.jpg);
+    background-size: cover;
+
+}
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.493);
+    margin-top: 350px;
+    padding-left: 800px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.info{
+    color: rgb(192, 52, 211);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boton{
+    background-color: rgb(139, 52, 211);; 
+    border: none;
+    color:white;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boton:hover{
+    background-color: rgb(106, 39, 160);; 
+    border: none;
+    color:white;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boton:active{
+    background-color: rgb(139, 52, 211); 
+    border: none;
+    color:white;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cajasTxt{
+    border-color: rgb(139, 52, 211);
+    border-radius: 5px;
+}
+.saludar{
+    color: rgb(64, 18, 90);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="estilo.css" rel="stylesheet"/>
         <script src="serviciosTest.js"></script>
         <script src="test.js"></script>
         <script src="utilitarios.js"></script>
     </head>
     <body>
-        <h3>Nombre:</h3>
-        <input type="text" id="txtNombre"/>
-        <h3>Apellido:</h3>
-        <input type="text" id="txtApellido"/>
+        <div class="contenedor">
+        <h3 class="info">Nombre:</h3>
+        <input type="text" id="txtNombre" class="cajasTxt"/>
+        <h3 class="info">Apellido:</h3>
+        <input type="text" id="txtApellido" class="cajasTxt"/>
+        <h4 id="txtSaludo" class="saludar"></h4>
         <p>
-           <div>
-               <input type="button" id="btnSaludar" value="Saludar" onclick="saludar();"/>
-           </div>
+            <div>
+                <input type="button" id="btnSaludar" value="Saludar" onclick="saludar();" class="boton"/>
+            </div>
         </p>
-       
-        <h4 id="txtSaludo" class="mensaje"></h4>
-
+        
+        
+        </div>
     </body>
 </html>
