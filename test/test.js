@@ -3,4 +3,5 @@ saludar=function(){
     let apellido=recuperarTexto("txtApellido");
     let saludo=generarSaludo(nombre,apellido);
     console.log(saludo);
+    cambiarTexto("txtSaludo",saludo);
 }
